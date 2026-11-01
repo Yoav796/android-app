@@ -4,21 +4,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"
+    android:padding="25dp"
     android:id="@+id/main"
+    android:background="@drawable/steph_curry"
+
     >
+
+
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_message"
-        android:textSize="40sp" />
+        android:text="@string/title_message"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFE700"
+        />
 
-    <Button
-        android:id="@+id/btnClick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/click_here" />
+    />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/reason"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+
+        />
 </LinearLayout>
