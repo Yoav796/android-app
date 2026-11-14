@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">YoavFialkov</string>
-    <string name="israeli">מה זה ישראלי</string>
-    <string name="why_israeli">מה שמהפיין את הישרלים זה האוכל המגוון, לישראלים יש המון סוגים של אוכל בגלל שהם באים מהמון תרבויות שונות, יש שווארמה פאלפל חומוס ועוד מגוון גדול.</string>
+
+    <string name="user_name">ישראל ישראלי</string>
+    <string name="send_message">שלח הודעה</string>
+    <string name="follow">עקוב</string>
+    <string name="following">במעקב</string>
+    <string name="opening_chat">פותח צאט</string>
+    <string name="started_following">התחלת לעקוב</string>
 </resources>
